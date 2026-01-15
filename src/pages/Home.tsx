@@ -120,7 +120,7 @@ const Home = () => {
                   className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <Ship className="h-12 w-12 text-blue-600 mb-4" />
+              <Ship className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Fret maritime</h3>
               <p className="text-gray-600 mb-4">Solutions complètes pour le transport maritime de conteneurs avec gestion portuaire.</p>
               <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
@@ -133,7 +133,7 @@ const Home = () => {
                   className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <Plane className="h-12 w-12 text-blue-600 mb-4" />
+              <Plane className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Fret aérien</h3>
               <p className="text-gray-600 mb-4">Transport aérien rapide et sécurisé pour vos marchandises urgentes.</p>
               <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
@@ -146,7 +146,7 @@ const Home = () => {
                   className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <Package className="h-12 w-12 text-blue-600 mb-4" />
+              <Package className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Transit & dédouanement</h3>
               <p className="text-gray-600 mb-4">Expertise complète en procédures douanières et conformité réglementaire.</p>
               <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
@@ -159,7 +159,7 @@ const Home = () => {
                   className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <Truck className="h-12 w-12 text-blue-600 mb-4" />
+              <Truck className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Messagerie & manutention</h3>
               <p className="text-gray-600 mb-4">Services express de messagerie et manutention spécialisée.</p>
               <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
@@ -172,7 +172,7 @@ const Home = () => {
                   className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <ArrowRight className="h-12 w-12 text-blue-600 mb-4" />
+              <ArrowRight className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Import / Export</h3>
               <p className="text-gray-600 mb-4">Conseil complet et accompagnement pour vos opérations commerciales.</p>
               <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>

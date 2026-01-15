@@ -101,7 +101,7 @@ const Services = () => {
 
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
                     <div>
-                      <h3 className="text-xl font-semibold mb-4 text-blue-600">Avantages clients</h3>
+                      <h3 className="text-xl font-semibold mb-4 text-yellow-400">Avantages clients</h3>
                       <ul className="space-y-2">
                         {service.advantages.map((advantage, idx) => (
                           <li key={idx} className="flex items-center text-gray-700">
@@ -113,11 +113,11 @@ const Services = () => {
                     </div>
 
                     <div>
-                      <h3 className="text-xl font-semibold mb-4 text-blue-600">Types de marchandises</h3>
+                      <h3 className="text-xl font-semibold mb-4 text-yellow-400">Types de marchandises</h3>
                       <ul className="space-y-2">
                         {service.types.map((type, idx) => (
                           <li key={idx} className="flex items-center text-gray-700">
-                            <Package className="h-4 w-4 text-blue-500 mr-2" />
+                            <Package className="h-4 w-4 text-yellow-400 mr-2" />
                             {type}
                           </li>
                         ))}

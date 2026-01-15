@@ -258,31 +258,31 @@ const Home = () => {
           </p>
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-lg font-semibold mb-3 text-blue-600">Quels sont vos délais de livraison moyens ?</h3>
+              <h3 className="text-lg font-semibold mb-3 text-yellow-400">Quels sont vos délais de livraison moyens ?</h3>
               <p className="text-gray-600">
                 Nos délais varient selon le type de transport : 24-48h pour le routier national, 5-7 jours pour le maritime, et 1-3 jours pour l'aérien. Nous vous communiquons toujours des délais précis lors de l'établissement du devis.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-lg font-semibold mb-3 text-blue-600">Proposez-vous des assurances cargo ?</h3>
+              <h3 className="text-lg font-semibold mb-3 text-yellow-400">Proposez-vous des assurances cargo ?</h3>
               <p className="text-gray-600">
                 Oui, nous proposons des assurances cargo complètes adaptées à la valeur de vos marchandises. Notre équipe vous conseille sur les meilleures options selon vos besoins spécifiques.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-lg font-semibold mb-3 text-blue-600">Comment suivre mes expéditions ?</h3>
+              <h3 className="text-lg font-semibold mb-3 text-yellow-400">Comment suivre mes expéditions ?</h3>
               <p className="text-gray-600">
                 Nous fournissons un numéro de suivi (tracking number) pour chaque expédition. Toutes les informations nécessaires sont transmises directement au client pour un suivi optimal de vos marchandises.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-lg font-semibold mb-3 text-blue-600">Quels types de marchandises transportez-vous ?</h3>
+              <h3 className="text-lg font-semibold mb-3 text-yellow-400">Quels types de marchandises transportez-vous ?</h3>
               <p className="text-gray-600">
                 Nous transportons tous types de marchandises : produits manufacturés, matières premières, produits périssables, équipements industriels, produits chimiques, etc. Nous disposons des certifications nécessaires pour les transports spécialisés.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-lg font-semibold mb-3 text-blue-600">Proposez-vous des services de dédouanement ?</h3>
+              <h3 className="text-lg font-semibold mb-3 text-yellow-400">Proposez-vous des services de dédouanement ?</h3>
               <p className="text-gray-600">
                 Absolument. Notre équipe d'experts douaniers gère toutes les formalités : déclarations, paiement des droits, obtention des autorisations nécessaires. Nous maîtrisons les réglementations marocaines et internationales.
               </p>

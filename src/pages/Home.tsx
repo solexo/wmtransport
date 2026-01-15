@@ -42,7 +42,7 @@ const Home = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-32 overflow-hidden">
+      <section className="relative bg-gradient-to-r from-yellow-400 to-yellow-600 text-white py-32 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20 animate-bg-slide"
           style={{

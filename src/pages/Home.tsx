@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { Truck, Ship, Plane, Package, ArrowRight, CheckCircle, MessageCircle } from 'lucide-react';
 
 const Home = () => {
+  const serviceSlugs = ['transport-routier', 'fret-maritime', 'fret-aerien', 'transit-dedouanement', 'messagerie-manutention', 'import-export'];
+
   return (
     <>
       <Helmet>
@@ -110,7 +112,7 @@ const Home = () => {
               <Truck className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Transport routier</h3>
               <p className="text-gray-600 mb-4">National et international, sécurisé et ponctuel avec suivi GPS en temps réel.</p>
-              <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
+              <Link to={`/services#${serviceSlugs[0]}`} className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="mb-4 overflow-hidden rounded-lg">
@@ -123,7 +125,7 @@ const Home = () => {
               <Ship className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Fret maritime</h3>
               <p className="text-gray-600 mb-4">Solutions complètes pour le transport maritime de conteneurs avec gestion portuaire.</p>
-              <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
+              <Link to={`/services#${serviceSlugs[1]}`} className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="mb-4 overflow-hidden rounded-lg">
@@ -136,7 +138,7 @@ const Home = () => {
               <Plane className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Fret aérien</h3>
               <p className="text-gray-600 mb-4">Transport aérien rapide et sécurisé pour vos marchandises urgentes.</p>
-              <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
+              <Link to={`/services#${serviceSlugs[2]}`} className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="mb-4 overflow-hidden rounded-lg">
@@ -149,7 +151,7 @@ const Home = () => {
               <Package className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Transit & dédouanement</h3>
               <p className="text-gray-600 mb-4">Expertise complète en procédures douanières et conformité réglementaire.</p>
-              <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
+              <Link to={`/services#${serviceSlugs[3]}`} className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="mb-4 overflow-hidden rounded-lg">
@@ -162,7 +164,7 @@ const Home = () => {
               <Truck className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Messagerie & manutention</h3>
               <p className="text-gray-600 mb-4">Services express de messagerie et manutention spécialisée.</p>
-              <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
+              <Link to={`/services#${serviceSlugs[4]}`} className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="mb-4 overflow-hidden rounded-lg">
@@ -175,7 +177,7 @@ const Home = () => {
               <ArrowRight className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Import / Export</h3>
               <p className="text-gray-600 mb-4">Conseil complet et accompagnement pour vos opérations commerciales.</p>
-              <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
+              <Link to={`/services#${serviceSlugs[5]}`} className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>
             </div>
           </div>
         </div>

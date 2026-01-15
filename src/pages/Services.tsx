@@ -1,11 +1,23 @@
 import { Helmet } from 'react-helmet-async';
+import { useEffect } from 'react';
 import { Truck, Ship, Plane, Package, ArrowRight, MessageCircle } from 'lucide-react';
 
 const Services = () => {
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const element = document.getElementById(hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
+
   const services = [
     {
       icon: Truck,
       title: 'Transport routier national & international',
+      slug: 'transport-routier',
       description: 'L\'entreprise WM Transport est spécialisée dans le transport routier de marchandise en national ou à l\'international. Le transport de votre marchandise peut s\'effectuer par groupage ou par envoi exceptionnel. Transport express de marchandise et messagerie (Intermodal), transport par groupage, par affrètement, température dirigée, départs réguliers.',
       advantages: ['Couverture nationale complète', 'Suivi GPS en temps réel', 'Assurance cargo intégrée', 'Transport express', 'Température dirigée'],
       types: ['Marchandises générales', 'Produits périssables', 'Matériels industriels', 'Transport par groupage', 'Envoi exceptionnel']
@@ -13,6 +25,7 @@ const Services = () => {
     {
       icon: Ship,
       title: 'Fret maritime',
+      slug: 'fret-maritime',
       description: 'En ce qui concerne notre service de transport maritime, nous desservons tous les grands ports du Monde et notamment les ports européens à savoir : Anvers - Marseille - Fos - Rouen ou bien Rotterdam. Nous desservons aussi les ports des États Unis - Chine - Canada - Tunisie - Algérie - tous les ports d\'Égypte aussi tous les ports d\'Afrique. Embarquement par les ports d\'Europe les mieux situés : le Havre, Marseille, Anvers, Rotterdam. Envoi de marchandise en groupage, en conventionnel ou en conteneur, positionnement des conteneurs partout au Maroc, formalités douanière et administratives.',
       advantages: ['Réseau de partenaires mondiaux', 'Gestion documentaire complète', 'Optimisation des coûts', 'Couverture mondiale', 'Formalités douanières'],
       types: ['Conteneurs complets (FCL)', 'Groupage maritime (LCL)', 'Transport spécialisé', 'Conventionnel', 'Positionnement Maroc']
@@ -20,6 +33,7 @@ const Services = () => {
     {
       icon: Plane,
       title: 'Fret aérien',
+      slug: 'fret-aerien',
       description: 'Notre service de transport aérien international de marchandise, nous desservons toutes les villes, les départs s\'effectuent quotidiennement depuis l\'aéroport de Casablanca pour les différentes destinations du Monde. Des départs quotidiens depuis l\'aéroport de Casablanca, nous sommes en relation avec les grandes compagnies de navigation, un grand respect de marchandise transportée et des délais ultra compétitifs, transport de marchandise fragile et/ou dangereuse.',
       advantages: ['Délais ultra-courts', 'Sécurité maximale', 'Couverture mondiale', 'Départs quotidiens'],
       types: ['Express aérien', 'Marchandises périssables', 'Équipements sensibles', 'Marchandises fragiles']
@@ -27,6 +41,7 @@ const Services = () => {
     {
       icon: Package,
       title: 'Transit & dédouanement',
+      slug: 'transit-dedouanement',
       description: 'Expertise complète en procédures douanières et transit international.',
       advantages: ['Équipe d\'experts douaniers', 'Conformité réglementaire', 'Accélération des délais'],
       types: ['Déclaration en douane', 'Transit communautaire', 'Procédures spéciales']
@@ -34,6 +49,7 @@ const Services = () => {
     {
       icon: Truck,
       title: 'Messagerie & manutention',
+      slug: 'messagerie-manutention',
       description: 'Services de messagerie express et manutention professionnelle pour tous types de colis.',
       advantages: ['Livraison express', 'Manutention spécialisée', 'Suivi en ligne'],
       types: ['Colis express', 'Documents urgents', 'Échantillons commerciaux']
@@ -41,6 +57,7 @@ const Services = () => {
     {
       icon: ArrowRight,
       title: 'Import / Export & conseil logistique',
+      slug: 'import-export',
       description: 'Accompagnement complet pour vos opérations d\'import/export et optimisation logistique.',
       advantages: ['Conseil personnalisé', 'Optimisation des chaînes logistiques', 'Support administratif'],
       types: ['Études de faisabilité', 'Gestion des risques', 'Optimisation des coûts']
@@ -75,7 +92,7 @@ const Services = () => {
 
         <div className="space-y-20">
           {services.map((service, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div key={index} id={service.slug} className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="md:flex">
                 <div className="md:w-1/3">
                   <img

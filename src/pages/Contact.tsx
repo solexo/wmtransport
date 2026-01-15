@@ -19,22 +19,22 @@ const Contact = () => {
             <h2 className="text-2xl font-semibold mb-6 text-gray-800">Questions? Commentaire?</h2>
             <p className="text-gray-600 mb-4 text-lg">Contacter nous sur :</p>
             <p className="text-gray-800 font-semibold mb-2">
-              <a href="tel:+212678676295" className="text-blue-600 hover:text-blue-800">+212.678.676.295</a>
+              <a href="tel:+212678676295" className="text-yellow-400 hover:text-yellow-300">+212.678.676.295</a>
             </p>
             <p className="text-gray-600 mb-4">ou envoyez un e-mail sur :</p>
             <p className="text-gray-800 font-semibold">
-              <a href="mailto:wm1transport@gmail.com" className="text-blue-600 hover:text-blue-800">wm1transport@gmail.com</a><br />
-              <a href="mailto:commercial@wmtransport.ma" className="text-blue-600 hover:text-blue-800">commercial@wmtransport.ma</a>
+              <a href="mailto:wm1transport@gmail.com" className="text-yellow-400 hover:text-yellow-300">wm1transport@gmail.com</a><br />
+              <a href="mailto:commercial@wmtransport.ma" className="text-yellow-400 hover:text-yellow-300">commercial@wmtransport.ma</a>
             </p>
             <div className="mt-6">
               <p className="text-gray-600 mb-2">Suivez-nous sur :</p>
-              <a href="https://www.linkedin.com/in/meriem-bellaoui-034469396?originalSubdomain=ma" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+              <a href="https://www.linkedin.com/in/meriem-bellaoui-034469396?originalSubdomain=ma" target="_blank" rel="noopener noreferrer" className="inline-block bg-black text-yellow-400 px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors">
                 LinkedIn
               </a>
             </div>
           </div>
 
-          <div className="bg-blue-50 p-8 rounded-lg mb-12">
+          <div className="bg-yellow-50 p-8 rounded-lg mb-12">
             <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">Contactez-nous</h2>
             <p className="text-gray-600 text-center mb-8 text-lg">
               Pour un devis rapide et personnalisé, contactez-nous directement via WhatsApp. Aucun formulaire à remplir, communication instantanée et sécurisée.
@@ -64,7 +64,7 @@ const Contact = () => {
 
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <MapPin className="h-6 w-6 text-blue-600 mr-4 mt-1" />
+                  <MapPin className="h-6 w-6 text-yellow-400 mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-2">Adresse</h3>
                     <p className="text-gray-600">
@@ -77,15 +77,15 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-center">
-                  <Phone className="h-6 w-6 text-blue-600 mr-4" />
+                  <Phone className="h-6 w-6 text-yellow-400 mr-4" />
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-2">Téléphone</h3>
-                    <p className="text-gray-600"><a href="tel:+212678676295" className="hover:text-blue-800">+212.678.676.295</a></p>
+                    <p className="text-gray-600"><a href="tel:+212678676295" className="text-yellow-400 hover:text-yellow-300">+212.678.676.295</a></p>
                   </div>
                 </div>
 
                 <div className="flex items-center">
-                  <Mail className="h-6 w-6 text-blue-600 mr-4" />
+                  <Mail className="h-6 w-6 text-yellow-400 mr-4" />
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-2">Email</h3>
                     <p className="text-gray-600">wm1transport@gmail.com<br />commercial@wmtransport.ma</p>

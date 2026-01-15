@@ -43,14 +43,14 @@ const Contact = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://wa.me/212678676295?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20vous%20contacter%20pour%20des%20informations."
-                className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center text-lg"
+                className="bg-black hover:bg-gray-800 text-yellow-400 px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center text-lg"
               >
                 <MessageCircle className="h-6 w-6 mr-3" />
                 Nous contacter
               </a>
               <a
                 href="https://wa.me/212678676295?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20r%C3%A9server%20un%20rendez-vous."
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center text-lg"
+                className="bg-black hover:bg-gray-800 text-yellow-400 px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center text-lg"
               >
                 <MessageCircle className="h-6 w-6 mr-3" />
                 Réserver un rendez-vous

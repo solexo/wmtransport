@@ -62,14 +62,14 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a
               href="https://wa.me/212678676295?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20vous%20contacter%20pour%20des%20informations."
-              className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              className="bg-black hover:bg-gray-800 text-yellow-400 px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               <MessageCircle className="h-5 w-5 mr-2" />
               Nous contacter
             </a>
             <a
               href="https://wa.me/212678676295?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20r%C3%A9server%20un%20rendez-vous."
-              className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              className="bg-black hover:bg-gray-800 text-yellow-400 px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Réserver un rendez-vous
             </a>

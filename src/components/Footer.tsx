@@ -41,11 +41,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-4 text-center">
-          <p className="text-gray-300 mb-2">&copy; 2024 WM Transport. Tous droits réservés.</p>
-          <p className="text-gray-400 text-sm">
-            <a href="/privacy" className="hover:text-white transition-colors">Politique de Confidentialité</a>
-          </p>
+        <div className="border-t border-gray-700 mt-8 pt-4">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="flex items-center mb-4 md:mb-0">
+              <img src="/logo.webp" alt="WM Transport" className="h-12 w-auto mr-4" />
+              <p className="text-yellow-400">&copy; 2026 WM Transport. Tous droits réservés.</p>
+            </div>
+            <p className="text-yellow-400 text-sm">
+              <a href="/privacy" className="hover:text-yellow-300 transition-colors">Politique de Confidentialité</a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

@@ -82,41 +82,6 @@ const About = () => {
             </div>
           </section>
 
-          <section className="mb-12">
-            <h2 className="text-2xl font-semibold mb-6 text-gray-800">Notre équipe</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="text-center">
-                <img
-                  src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=200&h=200&fit=crop&crop=face"
-                  alt="Meriem Bellaoui"
-                  className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h3 className="text-xl font-semibold">Meriem Bellaoui</h3>
-                <p className="text-blue-600 mb-2">Directrice Générale</p>
-                <p className="text-gray-600 text-sm">15 ans d'expérience en logistique internationale</p>
-              </div>
-              <div className="text-center">
-                <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
-                  alt="Responsable douane"
-                  className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h3 className="text-xl font-semibold">Karim Alaoui</h3>
-                <p className="text-blue-600 mb-2">Responsable Transit & Douane</p>
-                <p className="text-gray-600 text-sm">Expert certifié en procédures douanières</p>
-              </div>
-              <div className="text-center">
-                <img
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face"
-                  alt="Responsable transport"
-                  className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h3 className="text-xl font-semibold">Youssef Tazi</h3>
-                <p className="text-blue-600 mb-2">Directeur des Opérations</p>
-                <p className="text-gray-600 text-sm">Spécialiste en optimisation logistique</p>
-              </div>
-            </div>
-          </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-semibold mb-6 text-gray-800">Mission & Vision</h2>

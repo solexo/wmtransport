@@ -93,7 +93,7 @@ const Services = () => {
                 </div>
                 <div className="md:w-2/3 p-8">
                   <div className="flex items-center mb-6">
-                    <service.icon className="h-16 w-16 text-blue-600 mr-4" />
+                    <service.icon className="h-16 w-16 text-yellow-400 mr-4" />
                     <h2 className="text-3xl font-bold text-gray-800">{service.title}</h2>
                   </div>
 
@@ -105,7 +105,7 @@ const Services = () => {
                       <ul className="space-y-2">
                         {service.advantages.map((advantage, idx) => (
                           <li key={idx} className="flex items-center text-gray-700">
-                            <ArrowRight className="h-4 w-4 text-green-500 mr-2" />
+                            <ArrowRight className="h-4 w-4 text-yellow-400 mr-2" />
                             {advantage}
                           </li>
                         ))}
@@ -128,7 +128,7 @@ const Services = () => {
                   <div className="text-center">
                     <a
                       href={`https://wa.me/212678676295?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20obtenir%20des%20informations%20%2F%20un%20devis%20pour%20votre%20service%20de%20${service.title.toLowerCase()}.`}
-                      className="inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                      className="inline-flex items-center bg-black hover:bg-gray-800 text-yellow-400 px-6 py-3 rounded-lg font-semibold transition-colors"
                     >
                       <MessageCircle className="h-5 w-5 mr-2" />
                       Contact pour ce service

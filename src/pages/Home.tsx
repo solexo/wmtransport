@@ -107,7 +107,7 @@ const Home = () => {
                   className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <Truck className="h-12 w-12 text-blue-600 mb-4" />
+              <Truck className="h-12 w-12 text-yellow-400 mb-4" />
               <h3 className="text-xl font-semibold mb-3">Transport routier</h3>
               <p className="text-gray-600 mb-4">National et international, sécurisé et ponctuel avec suivi GPS en temps réel.</p>
               <Link to="/services" className="inline-flex items-center px-4 py-2 bg-black text-yellow-400 rounded-lg hover:bg-gray-800 transition-colors duration-300 font-medium">En savoir plus</Link>

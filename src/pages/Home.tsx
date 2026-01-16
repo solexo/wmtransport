@@ -262,7 +262,7 @@ const Home = () => {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold mb-3 text-yellow-400">Quels sont vos délais de livraison moyens ?</h3>
               <p className="text-gray-600">
-                Nos délais varient selon le type de transport : 24-48h pour le routier national, 5-7 jours pour le maritime, et 1-3 jours pour l'aérien. Nous vous communiquons toujours des délais précis lors de l'établissement du devis.
+                Une réponse tous dépend de l'opération. Ne donner pas de délais.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">

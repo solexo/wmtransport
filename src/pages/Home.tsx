@@ -59,7 +59,7 @@ const Home = () => {
             Votre partenaire de confiance en transit et transport international
           </p>
           <p className="text-lg mb-8 max-w-3xl mx-auto leading-relaxed">
-            WM Transport est une société marocaine basée à Casablanca, spécialisée dans le transit, le transport national et international, le dédouanement et la logistique. Depuis notre création, nous accompagnons les entreprises avec des solutions fiables, rapides et conformes aux normes internationales, en plaçant la satisfaction client au cœur de notre stratégie.
+            WM Transport est une société marocaine basée à Casablanca, spécialisée dans le transit, le transport national et international, le dédouanement et les solutions logistiques. Depuis notre création, nous accompagnons les entreprises avec des solutions fiables, rapides et conformes aux normes internationales, en plaçant la satisfaction client au cœur de notre stratégie.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a

@@ -144,7 +144,7 @@ const Services = () => {
 
                   <div className="text-center">
                     <a
-                      href={`https://wa.me/212668798515?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20obtenir%20des%20informations%20%2F%20un%20devis%20pour%20votre%20service%20de%20${service.title.toLowerCase()}.`}
+                      href={`https://wa.me/212668798515?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20obtenir%20des%20informations%20%2F%20un%20devis%20pour%20${service.slug === 'transit-dedouanement' ? 'une%20op%C3%A9ration%20de%20d%C3%A9douanement' : `votre%20service%20de%20${service.title.toLowerCase()}`}.`}
                       className="inline-flex items-center bg-black hover:bg-gray-800 text-yellow-400 px-6 py-3 rounded-lg font-semibold transition-colors"
                     >
                       <MessageCircle className="h-5 w-5 mr-2" />

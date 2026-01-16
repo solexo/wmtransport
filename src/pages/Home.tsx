@@ -262,7 +262,7 @@ const Home = () => {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold mb-3 text-yellow-400">Quels sont vos délais de livraison moyens ?</h3>
               <p className="text-gray-600">
-                Une réponse tous dépend de l'opération. Ne donner pas de délais.
+                Nos délais de livraison varient en fonction de l’opération. Ils dépendent notamment du type de marchandise, de la destination, du mode de transport choisi et des formalités logistiques ou douanières éventuelles. Un délai précis est communiqué après l’analyse de chaque demande.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">

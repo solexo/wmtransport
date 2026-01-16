@@ -17,7 +17,7 @@ const Home = () => {
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "WM Transport",
-            "description": "Société marocaine spécialisée dans le transit, le transport international et la logistique",
+            "description": "Société marocaine spécialisée dans le transit, le transport et la solution logistique internationale.",
             "url": "https://wmtransport.ma",
             "logo": "https://wmtransport.ma/logo.webp",
             "address": {
@@ -30,7 +30,7 @@ const Home = () => {
             },
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+212-661-964-763",
+              "telephone": "+212668798515",
               "contactType": "customer service",
               "availableLanguage": "French"
             },
@@ -63,14 +63,14 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a
-              href="https://wa.me/212678676295?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20vous%20contacter%20pour%20des%20informations."
+              href="https://wa.me/212668798515?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20vous%20contacter%20pour%20des%20informations."
               className="bg-black hover:bg-gray-800 text-yellow-400 px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               <MessageCircle className="h-5 w-5 mr-2" />
               Nous contacter
             </a>
             <a
-              href="https://wa.me/212678676295?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20r%C3%A9server%20un%20rendez-vous."
+              href="https://wa.me/212668798515?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20r%C3%A9server%20un%20rendez-vous."
               className="bg-black hover:bg-gray-800 text-yellow-400 px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Réserver un rendez-vous

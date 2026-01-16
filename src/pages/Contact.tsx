@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Contact WM Transport Maroc - Transit Transport Casablanca | WhatsApp Téléphone Email</title>
-        <meta name="description" content="Contact WM Transport Maroc Casablanca - Transit douane transport international. WhatsApp +212.678.676.295, téléphone, email professionnel Maroc." />
+        <meta name="description" content="Contact WM Transport Maroc Casablanca - Transit douane transport international. WhatsApp +212668798515, téléphone, email professionnel Maroc." />
         <meta name="keywords" content="contact wm transport maroc, transit casablanca, transport maroc contact, whatsapp transport casablanca, telephone fret maroc" />
         <link rel="canonical" href="https://wmtransport.ma/contact" />
       </Helmet>
@@ -19,11 +19,10 @@ const Contact = () => {
             <h2 className="text-2xl font-semibold mb-6 text-gray-800">Questions? Commentaire?</h2>
             <p className="text-gray-600 mb-4 text-lg">Contacter nous sur :</p>
             <p className="text-gray-800 font-semibold mb-2">
-              <a href="tel:+212678676295" className="text-yellow-400 hover:text-yellow-300">+212.678.676.295</a>
+              <a href="tel:+212668798515" className="text-yellow-400 hover:text-yellow-300">+212668798515</a>
             </p>
             <p className="text-gray-600 mb-4">ou envoyez un e-mail sur :</p>
             <p className="text-gray-800 font-semibold">
-              <a href="mailto:wm1transport@gmail.com" className="text-yellow-400 hover:text-yellow-300">wm1transport@gmail.com</a><br />
               <a href="mailto:commercial@wmtransport.ma" className="text-yellow-400 hover:text-yellow-300">commercial@wmtransport.ma</a>
             </p>
             <div className="mt-6">
@@ -42,14 +41,14 @@ const Contact = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/212678676295?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20vous%20contacter%20pour%20des%20informations."
+                href="https://wa.me/212668798515?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20vous%20contacter%20pour%20des%20informations."
                 className="bg-black hover:bg-gray-800 text-yellow-400 px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center text-lg"
               >
                 <MessageCircle className="h-6 w-6 mr-3" />
                 Nous contacter
               </a>
               <a
-                href="https://wa.me/212678676295?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20r%C3%A9server%20un%20rendez-vous."
+                href="https://wa.me/212668798515?text=Bonjour%20WM%20Transport%2C%20Je%20souhaite%20r%C3%A9server%20un%20rendez-vous."
                 className="bg-black hover:bg-gray-800 text-yellow-400 px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center text-lg"
               >
                 <MessageCircle className="h-6 w-6 mr-3" />
@@ -80,7 +79,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-yellow-400 mr-4" />
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-2">Téléphone</h3>
-                    <p className="text-gray-600"><a href="tel:+212678676295" className="text-yellow-400 hover:text-yellow-300">+212.678.676.295</a></p>
+                    <p className="text-gray-600"><a href="tel:+212668798515" className="text-yellow-400 hover:text-yellow-300">+212668798515</a></p>
                   </div>
                 </div>
 
@@ -88,7 +87,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-yellow-400 mr-4" />
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-2">Email</h3>
-                    <p className="text-gray-600">wm1transport@gmail.com<br />commercial@wmtransport.ma</p>
+                    <p className="text-gray-600">commercial@wmtransport.ma</p>
                   </div>
                 </div>
               </div>

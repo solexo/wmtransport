@@ -4,20 +4,11 @@ const Footer = () => {
   return (
     <footer className="bg-black text-yellow-400 py-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">WM Transport</h3>
             <p className="text-gray-300">
-              Société marocaine spécialisée dans le transit, le transport et la logistique internationale.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Informations légales</h3>
-            <p className="text-gray-300">
-              SARL à Associé Unique<br />
-              Capital : 100 000 MAD<br />
-              RC : 213897<br />
-              ICE : 000160023000050
+              Société marocaine spécialisée dans le transit, le transport et la solution logistique internationale.
             </p>
           </div>
           <div>

@@ -82,7 +82,7 @@ const Home = () => {
               <div className="text-yellow-200">Clients satisfaits</div>
             </div>
             <div className="bg-black/20 backdrop-blur-sm rounded-lg p-6">
-              <div className="text-3xl font-bold mb-2 text-yellow-400">10+</div>
+              <div className="text-3xl font-bold mb-2 text-yellow-400">15+</div>
               <div className="text-yellow-200">Années d'expérience</div>
             </div>
             <div className="bg-black/20 backdrop-blur-sm rounded-lg p-6">

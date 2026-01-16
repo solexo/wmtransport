@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">WM Transport</h3>
             <p className="text-gray-300">
-              Société marocaine spécialisée dans le transit, le transport et la solution logistique internationale.
+              Société marocaine spécialisée dans le transit, le transport et les solutions logistiques internationale.
             </p>
           </div>
           <div>

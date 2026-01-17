@@ -52,13 +52,13 @@ const Home = () => {
           }}
         ></div>
         <div className="relative container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-black">
             WM Transport
           </h1>
-          <p className="text-xl md:text-2xl mb-8">
+          <p className="text-xl md:text-2xl mb-8 text-black">
             Votre partenaire de confiance en transit et transport international
           </p>
-          <p className="text-lg mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg mb-8 max-w-3xl mx-auto leading-relaxed text-black">
             WM Transport est une société marocaine basée à Casablanca, spécialisée dans le transit, le transport national et international, le dédouanement et les solutions logistiques. Depuis notre création, nous accompagnons les entreprises avec des solutions fiables, rapides et conformes aux normes marocaines et international, en plaçant la satisfaction client au cœur de notre stratégie.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">

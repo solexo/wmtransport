@@ -12,31 +12,16 @@ const About = () => {
       </Helmet>
 
       <div className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">À propos de WM Transport</h1>
+        <h1 className="text-4xl font-bold text-center mb-12 text-black">À propos de WM Transport</h1>
 
         <div className="max-w-4xl mx-auto">
           <section className="mb-12">
             <h2 className="text-2xl font-semibold mb-6 text-gray-800">Notre entreprise</h2>
             <p className="text-gray-600 mb-4">
-              <strong>Bienvenue à WM Transport</strong>
+              <strong>Votre partenaire de confiance en transit et transport international</strong>
             </p>
             <p className="text-gray-600 mb-4">
-              WM Transport est une société de transport International, national et de négoce. Son objectif est de fournir le meilleur service possible pour chaque client et sur chaque dossier. Nous comprenons que la satisfaction de notre client dépend de notre capacité de respecter nos engagements d'une façon professionnelle et sûre, aussi nous fournissons un service personnalisé pour chaque client.
-            </p>
-            <p className="text-gray-600 mb-4">
-              Nous offrons les services suivants pour adapter vos besoins d'affaires :
-            </p>
-            <ul className="list-disc list-inside text-gray-600 mb-4 space-y-2">
-              <li>Un transport International : maritime, routier et aérien</li>
-              <li>Un transport International groupage et/ou complet</li>
-              <li>Transit : dédouanement de marchandises importées et/ou exportées</li>
-              <li>Transport national de marchandises groupage et/ou complets</li>
-            </ul>
-            <p className="text-gray-600 mb-4">
-              Notre personnel est expérimenté et bien informé dans tous les aspects de transport de fret. Avec notre mise à niveau élevé du service, nous nous plaçons indépendamment des autres forwarders.
-            </p>
-            <p className="text-gray-600 mb-4">
-              Basée à Casablanca, nous accompagnons les entreprises marocaines et internationales dans leurs opérations logistiques avec des solutions fiables, rapides et conformes aux normes internationales.
+              WM Transport est une société marocaine basée à Casablanca, spécialisée dans le transit, le transport national et international, le dédouanement et les solutions logistiques. Depuis notre création, nous accompagnons les entreprises avec des solutions fiables, rapides et conformes aux normes marocaines et international, en plaçant la satisfaction client au cœur de notre stratégie.
             </p>
           </section>
 
